@@ -1,0 +1,9 @@
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.deps.json
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.dll
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\bin\Debug\netstandard2.0\PacktLibrary.pdb
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.csprojAssemblyReference.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfoInputs.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.AssemblyInfo.cs
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.dll
+D:\Projects\Mark_Price_6\PacktLibrary\PacktLibrary\obj\Debug\netstandard2.0\PacktLibrary.pdb

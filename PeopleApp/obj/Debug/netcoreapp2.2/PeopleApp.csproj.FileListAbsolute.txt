@@ -1,0 +1,14 @@
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PeopleApp.deps.json
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PeopleApp.runtimeconfig.json
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PeopleApp.runtimeconfig.dev.json
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PeopleApp.dll
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PeopleApp.pdb
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PacktLibrary.dll
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\bin\Debug\netcoreapp2.2\PacktLibrary.pdb
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.csprojAssemblyReference.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.csproj.CoreCompileInputs.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.AssemblyInfoInputs.cache
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.AssemblyInfo.cs
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.csproj.CopyComplete
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.dll
+D:\Projects\Mark_Price_6\PacktLibrary\PeopleApp\obj\Debug\netcoreapp2.2\PeopleApp.pdb
