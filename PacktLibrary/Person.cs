@@ -43,5 +43,49 @@ namespace PacktLibrary
         {
             return Person.Procreate(p1, p2);
         }
+
+        // method with local function
+        public static int Factorial(int number)
+        {
+            if(number < 0)
+            {
+                throw new ArgumentException(
+                    $"{nameof(number)} cannot be less than zero");
+            }
+            return localFactorial(number);
+
+            int localFactorial(int localNumber)
+            {
+                if (localNumber < 1)
+                {
+                    return 1;
+                }
+                return localNumber * localFactorial(localNumber - 1);
+            }
+        }
+        public int MethodIWantToCall(string input)
+        {
+            return input.Length;
+        }
+
+
+
+        // event
+        public event EventHandler Shout;
+
+        // field
+        public int AngerLevel;
+
+        // method
+        public void Poke()
+        {
+            AngerLevel++;
+            if (AngerLevel >= 3)
+            {
+                // if somebody listens us...
+                //... then event raises
+                Shout?.Invoke(this, EventArgs.Empty);
+            }
+        }
     }
 }
