@@ -43,6 +43,46 @@ namespace PeopleApp
             harry.Poke();
             harry.Poke();
             harry.Poke();
+
+            WriteLine(new string('-', 50));
+            Person[] people =
+            {
+                new Person{Name="Simon"},
+                new Person{Name="Jenny"},
+                new Person{Name="Adam"},
+                new Person{Name="Richard"}
+            };
+
+            WriteLine("Initial list for people");
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
+            WriteLine("Use Person's IComparable implementation to sort:");
+            Array.Sort(people);
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
+            WriteLine("Use PersonComparer's IComparer implementation to sort");
+            Array.Sort(people, new PersonComparer());
+            foreach (var person in people)
+            {
+                WriteLine($"{person.Name}");
+            }
+
+            WriteLine(new string('-', 50));
+
+            var t = new Thing();
+            t.Data = 42;
+            WriteLine($"Thing : {t.Process("42")}");
+
+            // generic
+            var gt = new GenericThing<int>();
+            gt.Data = 42;
+            WriteLine($"Generic thing: {gt.Process("42")}");
         }
 
         private static void Harry_Shout(object sender, EventArgs e)

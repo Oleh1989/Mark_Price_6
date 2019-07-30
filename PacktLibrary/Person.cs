@@ -4,7 +4,7 @@ using static System.Console;
 
 namespace PacktLibrary
 {
-    public partial class Person
+    public partial class Person : IComparable<Person>
 
     {
         // fields
@@ -86,6 +86,11 @@ namespace PacktLibrary
                 //... then event raises
                 Shout?.Invoke(this, EventArgs.Empty);
             }
+        }
+
+        public int CompareTo(Person other)
+        {
+            return Name.CompareTo(other.Name);
         }
     }
 }
