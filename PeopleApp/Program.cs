@@ -83,6 +83,63 @@ namespace PeopleApp
             var gt = new GenericThing<int>();
             gt.Data = 42;
             WriteLine($"Generic thing: {gt.Process("42")}");
+
+            WriteLine(new string('-', 50));
+            Employee e1 = new Employee
+            {
+                Name = "John Jones",
+                HireDate = new DateTime(1990, 7, 28)
+            };
+            e1.WriteToConsole();
+
+            WriteLine(new string('-', 50));
+            WriteLine(e1.ToString());
+
+
+            WriteLine(new string('-', 50));
+            Employee aliceInEmployee = new Employee
+            {
+                Name = "Alice",
+                EmployeeCode = "AA123"
+            };
+            Person aliceInPerson = aliceInEmployee;
+            aliceInEmployee.WriteToConsole();
+            aliceInPerson.WriteToConsole();
+            WriteLine(aliceInEmployee.ToString());
+            WriteLine(aliceInPerson.ToString());
+
+            if (aliceInPerson is Employee)
+            {
+                WriteLine($"{nameof(aliceInPerson)} IS an Employee");
+                Employee e2 = (Employee)aliceInPerson;
+            }
+
+            Employee e3 = aliceInPerson as Employee;
+            if (e3 != null)
+            {
+                WriteLine($"{nameof(aliceInPerson)} IS an Employee");
+            }
+
+            WriteLine(new string('-', 50));
+            try
+            {
+                e1.TimeTravel(new DateTime(1999, 12, 31));
+                e1.TimeTravel(new DateTime(1950, 12, 25));
+            }
+            catch (PersonException ex)
+            {
+
+                WriteLine(ex.Message);
+            }
+            WriteLine(new string('-', 50));
+            string email1 = "pamela@test.com";
+            string email2 = "ian&test.com";
+
+            WriteLine($"{email1} is a valid e-mail address: " +
+                $"{email1.IsValidEmail()}");
+            WriteLine($"{email2} is a valid e-mail address: " +
+                $"{email2.IsValidEmail()}");
+
         }
 
         private static void Harry_Shout(object sender, EventArgs e)
